@@ -1,0 +1,41 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		}
+  ],
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#111111",
+		"navigationBarTitleText": "标题",
+		"navigationBarTextStyle": "white",
+		"backgroundColor": "#111111"
+	},
+	"tabBar": {
+		"color": "#AAAAAA",
+		"selectedColor": "#d32f32",
+		"borderStyle": "#EEEEEE",
+		"blurEffect": "extralight",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/home/home",
+				"iconfont": ""
+			},
+			{
+				"text": "个人中心",
+				"pagePath": "pages/profile/profile",
+				"iconfont": ""
+			}
+		]
+	},
+	"usingComponts": true
+}
